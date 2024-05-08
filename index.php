@@ -1,0 +1,120 @@
+<?php
+
+session_start();
+?>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>E-MedAP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/f3c1b54261.js" crossorigin="anonymous"></script>
+</head>
+<body>   
+<section class="header">
+    <nav>
+        <a href="index.html"><img src="images/E-MedAP logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+            <ul>
+            <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="course.html">Hotline</a></li>
+                <li><a href="chatbot.html">Chatbot</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.php">Log in</a></li>
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+     </nav>
+
+<div class="textbox">
+    <h1>E-MedAP</h1>
+    <p>E-MEDICINE ASSISTIVE PLATFORM (e-MedAP) FOR MITIGATING MENTAL HEALTH ANXIETY</p>
+    <a href=""class="hero-btn">Visit Us To Know More</a>
+</div>
+  
+ </section >
+
+ <!------ Course ------->
+
+ <section class="course">
+    <h1>Our Hotlines</h1>
+    <p>Free Telephone Counseling Hotlines in the Philippines.</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Suicide Crisis Lines</h3>
+            <p>Landline:(02) 8893-7603<br>Globe: 0917-8001123<br>Sun: 0917-8001123</p>
+        </div>
+        <div class="course-col">
+            <h3>Psych Consult, Inc.</h3>
+            <p>(02) 8421-2469<br>(02) 8357-6427<br>Address: Unit 227 Second Floor, Regalia Park Towers, 150 P. Tuazon Blvd., Cubao, Quezon City</p>
+        </div>
+        <div class="course-col">
+            <h3>National Mental Health Crisis Hotline</h3>
+            <p>(02) 8863-0655<br>(0977) 795-3097<br>Address: Unit 2511A Centuria Medical Makati Kalayaan Ave. cor. Salamanca St., Brgy Poblacion, Makati</p>
+        </div>
+    </div>
+
+
+</section>
+
+<!----- Footer -------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>We are a team of passionate Grade 12 STEM students from Pasteur,<br>driven by the desire to revolutionize healthcare accessibility.</p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa-regular fa-heart"></i> By Medicine Group 2</p>
+</section> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!------JavaScript for Toggle Menu------->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
